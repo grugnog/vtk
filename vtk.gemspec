@@ -3,13 +3,13 @@
 require_relative 'lib/vtk/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'vtk'
+  spec.name          = 'vtk-sudo'
   spec.license       = 'MIT'
   spec.version       = Vtk::VERSION
   spec.authors       = ['Eric Boehs', 'Lindsey Hattamer', 'Travis Hilton']
   spec.email         = ['eric.boehs@oddball.io', 'lindsey.hattamer@oddball.io', 'travis.hilton@oddball.io']
 
-  spec.summary       = 'A CLI for the platform'
+  spec.summary       = 'A CLI for the platform (testing fork to add sudo)'
   spec.description   = 'This is a platform CLI tool for VFS developer usage.'
   spec.homepage      = 'https://github.com/department-of-veterans-affairs/vtk'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.5.0')
